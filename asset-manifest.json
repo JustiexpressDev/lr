@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/lr/static/css/main.f2c7d327.css",
-    "main.js": "/lr/static/js/main.3ee36334.js",
+    "main.css": "/lr/static/css/main.993cb136.css",
+    "main.js": "/lr/static/js/main.9e4b73e0.js",
     "static/js/787.bcd09f3d.chunk.js": "/lr/static/js/787.bcd09f3d.chunk.js",
     "static/media/bootstrap-icons.woff?": "/lr/static/media/bootstrap-icons.e559bf06bc84fd9525e6.woff",
     "static/media/modalimg.png": "/lr/static/media/modalimg.a369cbb8e141db7228da.png",
@@ -17,12 +17,12 @@
     "static/media/open-sans-vietnamese-400-normal.woff2": "/lr/static/media/open-sans-vietnamese-400-normal.473f6b09ca8f5658857e.woff2",
     "static/media/open-sans-greek-ext-400-normal.woff2": "/lr/static/media/open-sans-greek-ext-400-normal.1ed998a42083750e175e.woff2",
     "index.html": "/lr/index.html",
-    "main.f2c7d327.css.map": "/lr/static/css/main.f2c7d327.css.map",
-    "main.3ee36334.js.map": "/lr/static/js/main.3ee36334.js.map",
+    "main.993cb136.css.map": "/lr/static/css/main.993cb136.css.map",
+    "main.9e4b73e0.js.map": "/lr/static/js/main.9e4b73e0.js.map",
     "787.bcd09f3d.chunk.js.map": "/lr/static/js/787.bcd09f3d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2c7d327.css",
-    "static/js/main.3ee36334.js"
+    "static/css/main.993cb136.css",
+    "static/js/main.9e4b73e0.js"
   ]
 }
