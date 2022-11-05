@@ -1,0 +1,108 @@
+#nav-bar {
+  background-color: #04171b !important;
+  font-family: "Open Sans";
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+
+  .navbar-brand {
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 35px;
+    text-align: center;
+    color: #c2f4fe;
+  }
+
+  .nav-link,
+  .item {
+    color: white;
+    font-size: 100%;
+    margin-top: 10px;
+  }
+
+  a.inicio {
+    color: white;
+    font-size: 125%;
+    margin-right: 20px;
+    margin-left: 5px;
+  }
+
+  .item:hover,
+  a.inicio:hover {
+    color: #c2f4fe;
+    font-size: 125%;
+  }
+
+  .nav-link:hover {
+    color: #c2f4fe;
+  }
+
+  .bi-house-door {
+    color: white;
+    font-size: 125%;
+  }
+
+  .navbar-toggler {
+    border-color: white;
+    width: fit-content;
+  }
+
+  .dropdown-menu {
+    width: fit-content;
+  }
+
+  a,
+  .dropdown-item {
+    font-weight: 550;
+    margin-bottom: 0px;
+    font-size: 15px;
+    color: #111;
+    text-decoration: none;
+    border: none;
+
+    a:hover {
+      color: #c2f4fe;
+      font-size: 17px;
+    }
+  }
+
+  .dropdown-item:hover {
+    background-color: #04171b;
+    font-size: 20px;
+    cursor: not-allowed;
+  }
+
+  p {
+    font-weight: 700;
+    margin-bottom: 0px;
+    font-size: 14px;
+    color: #04171b;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    background: #c2f4fe;
+    padding: 1px;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: fit-content;
+  }
+
+  p:hover {
+    font-weight: 700;
+    transform: scale(1.1);
+  }
+
+  p.cuenta {
+    font-weight: 300;
+    margin-bottom: 3px;
+    font-size: 9px;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    background: none;
+    padding: 3px;
+    width: fit-content;
+  }
+}
