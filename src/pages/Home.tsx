@@ -133,7 +133,7 @@ export const Home = () => {
             <ServiciosCard
               title={"Proformas de Respuestas"}
               icon={"bi bi-circle-fill text-center"}
-              to={"/plantillas"}
+              to={"/proformas-respuestas"}
               style={{ color: "#dfe3de " }}
             />
           </div>
