@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 
-import { Routes, Route, Navigate } from "react-router-dom";
+//pages
 import { Consultoría } from "./pages/Consultoría";
 import { Contratos } from "./pages/Contratos";
 import { Desacatos } from "./pages/Desacatos";
@@ -13,7 +13,7 @@ import { Reclamaciones } from "./pages/Reclamaciones";
 import { Tutelas } from "./pages/Tutelas";
 
 //componentes descargados
-import { VentanaModal } from "./components/Modal/VentanaModal";
+import { Routes, Route, Navigate } from "react-router-dom";
 import { SocialBar } from "./components/SocialBar/SocialBar";
 import { BarraNav } from "./components/BarraNav/BarraNav";
 import { FloatingWhatsApp } from "react-floating-whatsapp";
@@ -53,7 +53,6 @@ function App() {
 
   return (
     <>
-      <VentanaModal />
       <SocialBar />
       <FloatingWhatsApp
         phoneNumber={"573185725324"}
@@ -74,7 +73,7 @@ function App() {
         <Route path="/derechos-de-peticion" element={<DP />} />
         <Route path="/empresas" element={<Empresas />} />
         <Route path="/impugnaciones" element={<Impugnaciones />} />
-        <Route path="/plantillas" element={<Plantillas />} />
+        <Route path="/proformas-respuestas" element={<Plantillas />} />
         <Route path="/reclamaciones" element={<Reclamaciones />} />
         <Route path="/tutelas" element={<Tutelas />} />
         <Route path="/tyc" element={<TyC />} />

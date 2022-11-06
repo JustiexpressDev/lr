@@ -21,7 +21,7 @@ export const BarraNav = () => {
         id="nav-bar"
       >
         <Container>
-          <Navbar.Brand href="#top">Justiexpress</Navbar.Brand>
+          <Navbar.Brand href="#">Justiexpress</Navbar.Brand>
           <button
             className="navbar-toggler"
             type="button"
@@ -103,8 +103,8 @@ export const BarraNav = () => {
                   onClick={handleNavClick}
                   className="dropdown-item"
                 >
-                  <Link id="RouterNavLink" to="/plantillas">
-                    Plantillas de Respuesta
+                  <Link id="RouterNavLink" to="/proformas-respuestas">
+                    Proformas de Respuesta
                   </Link>
                 </NavDropdown.Item>
                 <NavDropdown.Item

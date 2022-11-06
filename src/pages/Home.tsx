@@ -1,4 +1,5 @@
 //componentes descargados
+import { VentanaModal } from "../components/Modal/VentanaModal";
 import { Contador } from "../components/Contador/Contador";
 
 //componentes propios
@@ -13,6 +14,7 @@ import { QuiénesSomos } from "../components/QuiénesSomos/QuiénesSomos";
 export const Home = () => {
   return (
     <>
+      <VentanaModal />
       <Quote />
       <div
         id="Contador"
@@ -129,7 +131,7 @@ export const Home = () => {
           </div>
           <div className="col-sm-4">
             <ServiciosCard
-              title={"Plantillas de Respuestas"}
+              title={"Proformas de Respuestas"}
               icon={"bi bi-circle-fill text-center"}
               to={"/plantillas"}
               style={{ color: "#dfe3de " }}
