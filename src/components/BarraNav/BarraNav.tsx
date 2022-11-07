@@ -4,6 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import { HashLink } from "react-router-hash-link";
 
 export const BarraNav = () => {
   const [show, setShow] = useState(false);
@@ -34,12 +35,6 @@ export const BarraNav = () => {
           >
             <Nav className="mx-auto">
               <Nav.Link>
-                <Link
-                  id="RouterNavLink"
-                  className="item bi bi-house-door"
-                  onClick={handleNavClick}
-                  to="/"
-                ></Link>
                 <Link
                   id="RouterNavLink"
                   className="inicio"
@@ -125,15 +120,21 @@ export const BarraNav = () => {
                 </NavDropdown.Item>
               </NavDropdown>
               {
-                <Nav.Link onClick={handleNavClick} href="#Testimonios">
-                  Testimonios
+                <Nav.Link onClick={handleNavClick}>
+                  <HashLink smooth to="/#Testimonios">
+                    Testimonios
+                  </HashLink>
                 </Nav.Link>
               }
-              <Nav.Link onClick={handleNavClick} href="#Contáctanos">
-                Contáctanos
+              <Nav.Link onClick={handleNavClick}>
+                <HashLink smooth to="/#Contáctanos">
+                  Contáctanos
+                </HashLink>
               </Nav.Link>
-              <Nav.Link onClick={handleNavClick} href="#Quiénes-Somos">
-                Quiénes somos
+              <Nav.Link onClick={handleNavClick}>
+                <HashLink smooth to="/#Quiénes-Somos">
+                  Quiénes somos
+                </HashLink>
               </Nav.Link>
               <Nav.Link
                 onClick={handleNavClick}
