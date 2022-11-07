@@ -24,4 +24,27 @@
     font-weight: 500;
     transform: scale(1.1);
   }
+
+  .Iframe {
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    border: 7px double #171717;
+    border-radius: 25px;
+    @media only screen and (max-width: 992px) {
+      margin-left: 165px;
+    }
+    @media only screen and (max-width: 775px) {
+      margin-left: 155px;
+    }
+    @media only screen and (max-width: 570px) {
+      margin-left: 125px;
+    }
+    @media only screen and (max-width: 500px) {
+      margin-left: 110px;
+    }
+    @media only screen and (max-width: 450px) {
+      margin-left: 95px;
+    }
+  }
 }

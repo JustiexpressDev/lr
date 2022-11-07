@@ -33,16 +33,9 @@ export const Tutelas = () => {
           width="60%"
           height="350"
           id=""
-          className=""
+          className="Iframe"
           display="block"
           position="relative"
-          styles={{
-            margin: "auto",
-            marginTop: "50px",
-            marginBottom: "40px",
-            border: "7px double #171717",
-            borderRadius: "25px",
-          }}
         />
         <br />
         <p
