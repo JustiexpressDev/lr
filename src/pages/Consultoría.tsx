@@ -3,10 +3,12 @@ import { QuiénesSomos } from "../components/QuiénesSomos/QuiénesSomos";
 import { Testimonios } from "../components/Testimonios/Testimonios";
 import { TestimoniosCarusel } from "../components/Testimonios/TestimoniosCarusel";
 import Table from "react-bootstrap/Table";
+import { BarraNavConsultoria } from "../components/BarraNav/BarraNavConsultoria";
 
 export const Consultoría = () => {
   return (
     <>
+      <BarraNavConsultoria />
       <div
         className="container"
         id="Pages"

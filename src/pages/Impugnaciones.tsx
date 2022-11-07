@@ -3,10 +3,12 @@ import { QuiénesSomos } from "../components/QuiénesSomos/QuiénesSomos";
 import { Testimonios } from "../components/Testimonios/Testimonios";
 import { TestimoniosCarusel } from "../components/Testimonios/TestimoniosCarusel";
 import Iframe from "react-iframe";
+import { BarraNavImpugnaciones } from "../components/BarraNav/BarraNavImpuganciones";
 
 export const Impugnaciones = () => {
   return (
     <>
+      <BarraNavImpugnaciones />
       <div
         className="container"
         id="Pages"

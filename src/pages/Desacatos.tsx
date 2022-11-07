@@ -3,10 +3,12 @@ import { QuiénesSomos } from "../components/QuiénesSomos/QuiénesSomos";
 import { Testimonios } from "../components/Testimonios/Testimonios";
 import { TestimoniosCarusel } from "../components/Testimonios/TestimoniosCarusel";
 import Iframe from "react-iframe";
+import { BarraNavDesacatos } from "../components/BarraNav/BarraNavDesacatos";
 
 export const Desacatos = () => {
   return (
     <>
+      <BarraNavDesacatos />
       <div
         className="container"
         id="Pages"

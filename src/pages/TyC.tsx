@@ -1,8 +1,10 @@
 import { Link } from "react-router-dom";
+import { BarraNavTyC } from "../components/BarraNav/BarraNavTyC";
 
 export const TyC = () => {
   return (
     <>
+      <BarraNavTyC />
       <div className="container" id="Pages">
         <h1>Términos y Condiciones</h1>
         <div className="section-title-divider" />

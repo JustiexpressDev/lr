@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import { HashLink } from "react-router-hash-link";
 
-export const BarraNav = () => {
+export const BarraNavEmpresas = () => {
   const [show, setShow] = useState(false);
   const handleNavClick = () => {
     setShow(false);
@@ -119,20 +119,18 @@ export const BarraNav = () => {
                   </Link>
                 </NavDropdown.Item>
               </NavDropdown>
-              {
-                <Nav.Link onClick={handleNavClick}>
-                  <HashLink smooth to="/#Testimonios">
-                    Testimonios
-                  </HashLink>
-                </Nav.Link>
-              }
               <Nav.Link onClick={handleNavClick}>
-                <HashLink smooth to="/#Contáctanos">
+                <HashLink smooth to="/empresas/#Contáctanos">
                   Contáctanos
                 </HashLink>
               </Nav.Link>
               <Nav.Link onClick={handleNavClick}>
-                <HashLink smooth to="/#Quiénes-Somos">
+                <HashLink smooth to="/empresas/#Testimonios">
+                  Testimonios
+                </HashLink>
+              </Nav.Link>
+              <Nav.Link onClick={handleNavClick}>
+                <HashLink smooth to="/empresas/#Quiénes-Somos">
                   Quiénes somos
                 </HashLink>
               </Nav.Link>

@@ -10,11 +10,13 @@ import { Testimonios } from "../components/Testimonios/Testimonios";
 import { TestimoniosCarusel } from "../components/Testimonios/TestimoniosCarusel";
 import { Form } from "../components/Form/Form";
 import { QuiénesSomos } from "../components/QuiénesSomos/QuiénesSomos";
+import { BarraNavHome } from "../components/BarraNav/BarraNavHome";
 
 export const Home = () => {
   return (
     <>
       <VentanaModal />
+      <BarraNavHome />
       <Quote />
       <div
         id="Contador"

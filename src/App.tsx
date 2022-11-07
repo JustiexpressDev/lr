@@ -15,7 +15,6 @@ import { Tutelas } from "./pages/Tutelas";
 //componentes descargados
 import { Routes, Route, Navigate } from "react-router-dom";
 import { SocialBar } from "./components/SocialBar/SocialBar";
-import { BarraNav } from "./components/BarraNav/BarraNav";
 import { FloatingWhatsApp } from "react-floating-whatsapp";
 
 //componentes propios
@@ -64,7 +63,6 @@ function App() {
         darkMode={true}
         allowClickAway={true}
       />
-      <BarraNav />
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/consultoria" element={<Consultoría />} />
