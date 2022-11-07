@@ -89,8 +89,10 @@ export const Form = () => {
                   data-aos-easing="ease-in-sine"
                 ></i>
                 <br />
-                <h3 className="text-center">justiexpress@gmail.com </h3>
-                <h4 className="text-center">(+57) 318 5725324 </h4>
+                <h3 className="text-center">
+                  justiexpress@gmail.com <br /> <br />
+                  (+57) 318 5725324
+                </h3>
               </div>
               <div className="col-lg-7">
                 <div className="mb-3 pt-0">

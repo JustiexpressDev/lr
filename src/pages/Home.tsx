@@ -27,7 +27,7 @@ export const Home = () => {
             <Contador
               title={"clientes"}
               end={1000}
-              duration={6}
+              duration={4}
               prefix={"+ "}
               style={{ color: "#c4c2f9" }}
               iconStyle={{ color: "#c4c2f9" }}
@@ -39,7 +39,7 @@ export const Home = () => {
             <Contador
               title={"entregas"}
               end={2000}
-              duration={6}
+              duration={4}
               prefix={"+ "}
               style={{ color: "#80cac4" }}
               iconStyle={{ color: "#80cac4" }}
@@ -51,7 +51,7 @@ export const Home = () => {
             <Contador
               title={"asesorías"}
               end={4000}
-              duration={6}
+              duration={4}
               prefix={"+ "}
               style={{ color: "#c4c2f9" }}
               iconStyle={{ color: "#c4c2f9" }}
