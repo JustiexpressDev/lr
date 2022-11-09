@@ -7,7 +7,6 @@ export const QuiénesSomos = () => {
       data-aos-duration="2500"
     >
       <h1>Quiénes somos</h1>
-      <div className="section-title-divider"></div>
       <div className="row">
         <br />
         <br />

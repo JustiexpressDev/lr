@@ -20,7 +20,7 @@ export const Consultoría = () => {
         <h2>
           Te brindamos asesoría en temas relacionados con Derecho Comercial,
           Corporativo, Civil, Familia, Constitucional, Administrativo, Laboral,
-          Seguridad Social y Protección Social, Tributario, entre otras. En lo
+          Seguridad Social y Protección Social, Tributario, entre otros. En lo
           económico, asesoramos en diversos asuntos financieros y de
           investigación económica. Revisa la siguente lista de temas en los que
           te podemos brindar asesoría.
@@ -90,7 +90,7 @@ export const Consultoría = () => {
                 ✔ Derechos de petición
                 <br />
                 <br />
-                ✔ Silencio Administrativo negativo, positivo y en recursos
+                ✔ Silencio Administrativo negativo, positivo y recursos
                 <br />
                 <br />
                 ✔ Estructuración de documentos para la defensa en procesos de

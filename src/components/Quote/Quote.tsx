@@ -3,7 +3,7 @@ export const Quote = () => {
     <div
       id="Quote"
       className="container"
-      data-aos="flip-up"
+      data-aos="fade-up"
       data-aos-duration="2500"
     >
       <p>
