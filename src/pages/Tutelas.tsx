@@ -18,20 +18,19 @@ export const Tutelas = () => {
         <h1>Acciones de Tutela</h1>
         <div className="section-title-divider"></div>
         <h2>
-          En el siguiente video te explicamos cómo registrarte y empezar a
-          utlizar nuestra plataforma. Descubre todas las plantillas de tutelas
-          que tenemos disponbiles para ti.
-          {/* En el siguiente video te explicamos cómo diligenciar una Acción de
-          Tutela en contra de tu EPS, por ejemplo, cuando tienes pendiente o se
-          te han negado tratamientos, procedimientos, exámenes, consultas,
-          controles médicos o el suministro de medicamentos.
+          Te invitamos a consultar los diferentes tipos de tutelas que tenemos
+          disponibles para ti. En el siguiente video te explicamos cómo
+          diligenciar una Acción de Tutela en contra de tu E.P.S., por ejemplo,
+          cuando tienes pendiente o se te han negado tratamientos,
+          procedimientos, exámenes, consultas, controles médicos o el suministro
+          de medicamentos.
         </h2>
         <h2 className="text-center">
-          ¡Ingresa a nuestra plataforma y hazlo ahora!*/}
+          ¡Ingresa a nuestra plataforma y hazlo ahora!
         </h2>
 
         <Iframe
-          url="https://www.youtube.com/embed/dyREnJBzMoM"
+          url="https://www.youtube.com/embed/UTwbwb3Z4zo"
           width="60%"
           height="350"
           id=""
