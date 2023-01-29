@@ -18,12 +18,21 @@ export const Empresas = () => {
         <h1>Empresas</h1>
         <div className="section-title-divider"></div>
         <h2>
-          Si eres una empresa, podrás acceder a todas las plantillas disponibles
-          para el público en general, y gestionar las plantillas creadas por
-          nosotros a la medida de tu empresa; las cuales serán visibles
-          únicamente desde tu usuario empresarial. En el siguiente video te
-          explicamos cómo registrarte como empresa y empezar a utlizar nuestra
-          plataforma.
+          No hay empresa que no tenga alguno de sus procesos basados en una
+          plantilla. Por eso, te invitamos a elegirnos. Somos una excelente
+          alternativa para que estandarices los documentos de tu empresa. Con
+          nosotros ahorrarás tiempo y recursos. Nuestras plantillas son fáciles
+          de implementar y con ellas reducirás errores humanos involuntarios.
+          <br />
+          <br />
+          Con tu usuario empresarial podremos habilitarte cualquiera de las
+          plantillas disponibles para el público en general. Así mismo, podemos
+          crear nuevas plantillas a la medida de tu empresa, las cuales serán
+          visibles únicamente desde tu usuario empresarial.
+          <br />
+          <br />
+          Contáctanos y uno de nuestros asesores te orientará sobre nuestros
+          planes para empresas.
         </h2>
         <h2 className="text-center">
           ¡Ingresa a nuestra plataforma y hazlo ahora!

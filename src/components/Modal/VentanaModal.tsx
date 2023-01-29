@@ -15,7 +15,7 @@ export const VentanaModal = () => {
           show={show}
           onHide={handleClose}
           backdrop="static" //sirve para que no se pueda cerrar con clic afuera del modal
-          keyboard={false}
+          keyboard={true}
         >
           <Modal.Header closeButton></Modal.Header>
           <Modal.Header className="modal-header">
