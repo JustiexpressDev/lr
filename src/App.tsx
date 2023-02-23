@@ -54,7 +54,7 @@ function App() {
     <>
       <SocialBar />
       <FloatingWhatsApp
-        phoneNumber={"573185725324"}
+        phoneNumber={"573223034024"}
         accountName={"Justiexpress"}
         avatar={logo}
         statusMessage={"en línea"}
