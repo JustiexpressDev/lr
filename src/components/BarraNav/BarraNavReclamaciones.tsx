@@ -106,7 +106,7 @@ export const BarraNavReclamaciones = () => {
                   className="dropdown-item"
                 >
                   <Link id="RouterNavLink" to="/consultoria">
-                    Cosultoría
+                    Consultoría
                   </Link>
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
