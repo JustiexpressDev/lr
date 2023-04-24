@@ -91,7 +91,7 @@ export const Form = () => {
                 <br />
                 <h3 className="text-center">
                   justiexpress@gmail.com <br /> <br />
-                  (+57) 322 3034024
+                  (+57) 318 5725324
                 </h3>
               </div>
               <div className="col-lg-7">
