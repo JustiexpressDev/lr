@@ -41,7 +41,7 @@ export const VentanaModal2 = () => {
                 rel="noreferrer"
                 type="button"
                 className="modal-button"
-                href="https://wa.me/573185725324"
+                href="https://justiexpress.web.app/register"
                 onClick={handleClose}
               >
                 Ingresa a nuestra plataforma
