@@ -1,5 +1,5 @@
 //componentes descargados
-import { VentanaModal } from "../components/Modal/VentanaModal";
+import { VentanaModal2 } from "../components/Modal/VentanaModal2";
 import { Contador } from "../components/Contador/Contador";
 
 //componentes propios
@@ -15,7 +15,7 @@ import { BarraNavHome } from "../components/BarraNav/BarraNavHome";
 export const Home = () => {
   return (
     <>
-      <VentanaModal />
+      <VentanaModal2 />
       <BarraNavHome />
       <div id="Home">
         <div id="Quote" data-aos="fade-up" data-aos-duration="2500">

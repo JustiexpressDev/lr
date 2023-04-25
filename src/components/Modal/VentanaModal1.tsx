@@ -3,14 +3,14 @@ import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import modalogo from "C:/Users/guall/OneDrive/Escritorio/lr/src/assets/img/modalimg.png";
 
-export const VentanaModal = () => {
+export const VentanaModal1 = () => {
   const [show, setShow] = useState(true);
 
   const handleClose = () => setShow(false);
 
   return (
     <>
-      <div id="Ventanamodal">
+      <div id="Ventanamodal1">
         <Modal
           show={show}
           onHide={handleClose}

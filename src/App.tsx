@@ -27,7 +27,7 @@ import "./App.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "@fontsource/open-sans";
-import "./components/Modal/VentanaModal.scss";
+import "./components/Modal/VentanaModal2.scss";
 import "./components/BarraNav/BarraNav.scss";
 import "./components/Contador/Contador.scss";
 import "./components/Quote/Quote.scss";
