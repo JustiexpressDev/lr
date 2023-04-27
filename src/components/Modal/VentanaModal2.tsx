@@ -26,7 +26,7 @@ export const VentanaModal2 = () => {
                 href="https://wa.me/573185725324"
                 onClick={handleClose}
               >
-                Solicita tu servicio por WhatsApp{" "}
+                Solicita aquí tu servicio por WhatsApp{" "}
                 <i id="whatsapp" className="bi bi-whatsapp"></i>
               </a>
             </Modal.Body>
@@ -41,7 +41,7 @@ export const VentanaModal2 = () => {
                 href="https://justiexpress.web.app/register"
                 onClick={handleClose}
               >
-                Prueba nuestra plataforma web
+                Genera aquí tu documento en nuestra aplicación
               </a>
             </Modal.Body>
           </div>
