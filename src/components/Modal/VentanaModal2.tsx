@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
+import WhatsappButton from "../WhatsappButton";
 
 export const VentanaModal2 = () => {
   const [show, setShow] = useState(true);
@@ -9,7 +10,7 @@ export const VentanaModal2 = () => {
 
   return (
     <>
-      <Modal show={show} onHide={handleClose}>
+      <Modal show={show} onHide={handleClose} onClick={handleClose}>
         <Modal.Header>
           <Modal.Title>
             Nunca había sido tan fácil crear documentos legales
@@ -18,17 +19,7 @@ export const VentanaModal2 = () => {
         <div className="row">
           <div className="col-sm-6 ">
             <Modal.Body>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                type="button"
-                className="modal-button"
-                href="https://wa.me/573185725324"
-                onClick={handleClose}
-              >
-                Solicita aquí tu servicio por WhatsApp{" "}
-                <i id="whatsapp" className="bi bi-whatsapp"></i>
-              </a>
+              <WhatsappButton />
             </Modal.Body>
           </div>
           <div className="col-sm-6 ">

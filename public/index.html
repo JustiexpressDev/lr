@@ -110,8 +110,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
       function gtag_report_conversion(url) {
         var callback = function () {
           if (typeof url != "undefined") {
-            window.location =
-              "https://api.whatsapp.com/send/?phone=573185725324&text&type=phone_number&app_absent=0";
+            window.location = "url";
           }
         };
         gtag("event", "conversion", {
