@@ -11,7 +11,7 @@ import { TestimoniosCarusel } from "../components/Testimonios/TestimoniosCarusel
 import { Form } from "../components/Form/Form";
 import { QuiénesSomos } from "../components/QuiénesSomos/QuiénesSomos";
 import { BarraNavHome } from "../components/BarraNav/BarraNavHome";
-import GoogleReviews from "../components/GoogleReviews";
+import GoogleReviews from "../components/GoogleReviews/GoogleReviews";
 
 export const Home = () => {
   return (

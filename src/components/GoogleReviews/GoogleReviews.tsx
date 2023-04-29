@@ -2,7 +2,7 @@ import { Helmet } from "react-helmet";
 
 const GoogleReviews = () => {
   return (
-    <div>
+    <div id="reviews">
       <Helmet>
         <script
           src="https://static.elfsight.com/platform/platform.js"
@@ -10,7 +10,7 @@ const GoogleReviews = () => {
           defer
         ></script>
       </Helmet>
-      <div className="elfsight-app-92a8af1e-5e7c-4fd3-90a1-c357c7bda4e6"></div>
+      <div className="elfsight-app-bcbafc0b-dc72-4afe-9bc9-5fc4d8535b7e"></div>
     </div>
   );
 };

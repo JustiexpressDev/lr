@@ -37,6 +37,7 @@ import "./components/Testimonios/Testimonios.scss";
 import "./components/QuiénesSomos/QuiénesSomos.scss";
 import "./components/Footer/Footer.scss";
 import "./components/SocialBar/SocialBar.scss";
+import "./components/GoogleReviews/GoogleReviews.scss";
 
 //imágenes
 import logo from "C:/Users/guall/OneDrive/Escritorio/lr/src/assets/img/logo.png";
