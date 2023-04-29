@@ -11,6 +11,7 @@ import { TestimoniosCarusel } from "../components/Testimonios/TestimoniosCarusel
 import { Form } from "../components/Form/Form";
 import { QuiénesSomos } from "../components/QuiénesSomos/QuiénesSomos";
 import { BarraNavHome } from "../components/BarraNav/BarraNavHome";
+import GoogleReviews from "../components/GoogleReviews";
 
 export const Home = () => {
   return (
@@ -84,6 +85,7 @@ export const Home = () => {
             </div>
           </div>
         </div>
+        <GoogleReviews />
         <ServiciosText />
         <div
           className="container"
