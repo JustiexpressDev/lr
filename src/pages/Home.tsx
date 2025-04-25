@@ -10,7 +10,6 @@ import { TestimoniosCarusel } from "../components/Testimonios/TestimoniosCarusel
 import { Form } from "../components/Form/Form";
 import { QuiénesSomos } from "../components/QuiénesSomos/QuiénesSomos";
 import { BarraNavHome } from "../components/BarraNav/BarraNavHome";
-import GoogleReviews from "../components/GoogleReviews/GoogleReviews";
 
 export const Home = () => {
   return (
@@ -19,7 +18,7 @@ export const Home = () => {
       <div id="Home">
         <div id="Quote" data-aos="fade-up" data-aos-duration="2500">
           <p>
-            <i>"Nunca había sido tan fácil crear documentos legales"</i>
+            <i>"Innovación legal respaldada por abogados expertos"</i>
             <br />
           </p>
         </div>
@@ -34,7 +33,7 @@ export const Home = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Click aquí para asistencia inmediata vía WhatsApp
+            Click aquí para asistencia inmediata
           </a>
         </p>
 
@@ -83,7 +82,6 @@ export const Home = () => {
             </div>
           </div>
         </div>
-        <GoogleReviews />
         <ServiciosText />
         <div
           className="container"
@@ -96,7 +94,6 @@ export const Home = () => {
               <ServiciosCard
                 title={"Acciones de Tutela"}
                 icon={"bi bi-circle-fill text-center"}
-                to={"/tutelas"}
                 style={{ color: "#fceef3" }}
                 buttonVariant="outline-secondary"
               />
@@ -105,7 +102,6 @@ export const Home = () => {
               <ServiciosCard
                 title={"Derechos de Petición"}
                 icon={"bi bi-circle-fill text-center"}
-                to={"/derechos-de-peticion"}
                 style={{ color: "#fff0da" }}
               />
             </div>
@@ -113,7 +109,6 @@ export const Home = () => {
               <ServiciosCard
                 title={"Reclamaciones"}
                 icon={"bi bi-circle-fill text-center"}
-                to={"/reclamaciones"}
                 style={{ color: "#e6fdfc" }}
               />
             </div>
@@ -123,7 +118,6 @@ export const Home = () => {
               <ServiciosCard
                 title={"Desacatos"}
                 icon={"bi bi-circle-fill text-center"}
-                to={"/desacatos"}
                 style={{ color: "#eafde7" }}
               />
             </div>
@@ -131,7 +125,6 @@ export const Home = () => {
               <ServiciosCard
                 title={"Impugnaciones"}
                 icon={"bi bi-circle-fill text-center"}
-                to={"/impugnaciones"}
                 style={{ color: "#e1eeff" }}
               />
             </div>
@@ -139,7 +132,6 @@ export const Home = () => {
               <ServiciosCard
                 title={"Contratos"}
                 icon={"bi bi-circle-fill text-center"}
-                to={"/contratos"}
                 style={{ color: "#fafad2" }}
               />
             </div>
@@ -149,7 +141,6 @@ export const Home = () => {
               <ServiciosCard
                 title={"Consultoría"}
                 icon={"bi bi-circle-fill text-center"}
-                to={"/consultoria"}
                 style={{ color: "#ada8b6" }}
               />
             </div>
@@ -157,7 +148,6 @@ export const Home = () => {
               <ServiciosCard
                 title={"Proformas de Respuestas"}
                 icon={"bi bi-circle-fill text-center"}
-                to={"/proformas-respuestas"}
                 style={{ color: "#dfe3de " }}
               />
             </div>
@@ -165,7 +155,6 @@ export const Home = () => {
               <ServiciosCard
                 title={"Empresas y Startups"}
                 icon={"bi bi-circle-fill text-center"}
-                to={"/empresas"}
                 style={{ color: "#e2f5bd  " }}
               />
             </div>

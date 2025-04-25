@@ -50,12 +50,14 @@
 
   #RouterNavLink {
     color: black;
+    cursor: default;
   }
 
   #RouterNavLink:hover,
   #basic-nav-dropdown:hover {
     color: #c2f4fe;
     font-size: 17px;
+    cursor: default;
   }
 
   #RouterNavLink.inicio {
@@ -104,5 +106,22 @@
     background: none;
     padding: 3px;
     width: fit-content;
+  }
+  .nav-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 40px; /* Espacio entre elementos */
+  }
+  
+  .nav-item {
+    text-align: center;
+  }
+  
+  @media (max-width: 1200px) {
+    .nav-container {
+      flex-direction: column;
+      gap: 10px;
+    }
   }
 }

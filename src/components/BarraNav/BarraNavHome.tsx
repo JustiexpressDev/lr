@@ -2,9 +2,8 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import { Link } from "react-router-dom";
-import { useState } from "react";
 import { HashLink } from "react-router-hash-link";
+import { useState } from "react";
 
 export const BarraNavHome = () => {
   const [show, setShow] = useState(false);
@@ -33,95 +32,93 @@ export const BarraNavHome = () => {
             className={`collapse navbar-collapse ${show ? "show" : ""}`}
             id="navbarCollapse"
           >
-            <Nav className="mx-auto">
-              <Nav.Link>
-              </Nav.Link>
-              <NavDropdown title="Servicios" id="basic-nav-dropdown">
+            <Nav className="nav-container mx-auto">
+              <NavDropdown title="Servicios" id="basic-nav-dropdown" className="nav-item">
                 <NavDropdown.Item
                   onClick={handleNavClick}
                   className="dropdown-item"
                 >
-                  <Link id="RouterNavLink" to="/tutelas">
+                  <span id="RouterNavLink">
                     Acciones de Tutela
-                  </Link>
+                  </span>
                 </NavDropdown.Item>
                 <NavDropdown.Item
                   onClick={handleNavClick}
                   className="dropdown-item"
                 >
-                  <Link id="RouterNavLink" to="/derechos-de-peticion">
+                  <span id="RouterNavLink">
                     Derechos de Petición
-                  </Link>
+                  </span>
                 </NavDropdown.Item>
                 <NavDropdown.Item
                   onClick={handleNavClick}
                   className="dropdown-item"
                 >
-                  <Link id="RouterNavLink" to="/reclamaciones">
+                  <span id="RouterNavLink">
                     Reclamaciones
-                  </Link>
+                  </span>
                 </NavDropdown.Item>
                 <NavDropdown.Item
                   onClick={handleNavClick}
                   className="dropdown-item"
                 >
-                  <Link id="RouterNavLink" to="/contratos">
+                  <span id="RouterNavLink">
                     Contratos
-                  </Link>
+                  </span>
                 </NavDropdown.Item>
                 <NavDropdown.Item
                   onClick={handleNavClick}
                   className="dropdown-item"
                 >
-                  <Link id="RouterNavLink" to="/desacatos">
+                  <span id="RouterNavLink">
                     Desacatos
-                  </Link>
+                  </span>
                 </NavDropdown.Item>
                 <NavDropdown.Item
                   onClick={handleNavClick}
                   className="dropdown-item"
                 >
-                  <Link id="RouterNavLink" to="/impugnaciones">
+                  <span id="RouterNavLink">
                     Impugnaciones
-                  </Link>
+                  </span>
                 </NavDropdown.Item>
                 <NavDropdown.Item
                   onClick={handleNavClick}
                   className="dropdown-item"
                 >
-                  <Link id="RouterNavLink" to="/proformas-respuestas">
+                  <span id="RouterNavLink">
                     Proformas de Respuesta
-                  </Link>
+                  </span>
                 </NavDropdown.Item>
                 <NavDropdown.Item
                   onClick={handleNavClick}
                   className="dropdown-item"
                 >
-                  <Link id="RouterNavLink" to="/consultoria">
+                  <span id="RouterNavLink">
                     Consultoría
-                  </Link>
+                  </span>
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item
                   onClick={handleNavClick}
                   className="dropdown-item"
                 >
-                  <Link id="RouterNavLink" to="/empresas">
+                  <span id="RouterNavLink">
                     Empresas y Startups
-                  </Link>
+                  </span>
                 </NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link onClick={handleNavClick}>
+              <Nav.Link onClick={handleNavClick} className="nav-item">
                 <HashLink smooth to="/#Testimonios">
                   Testimonios
                 </HashLink>
               </Nav.Link>
-              <Nav.Link onClick={handleNavClick}>
+              <Nav.Link onClick={handleNavClick} className="nav-item">
                 <HashLink smooth to="/#Contáctanos">
                   Contáctanos
                 </HashLink>
               </Nav.Link>
-              <Nav.Link onClick={handleNavClick}>
+              <Nav.Link onClick={handleNavClick} className="nav-item">
                 <HashLink smooth to="/#Quiénes-Somos">
                   Quiénes somos
                 </HashLink>

@@ -51,7 +51,7 @@ export const TestimoniosCarusel = () => {
                 </p>
                 <blockquote className="blockquote-reverse">
                   <br />
-                  <footer className="footer">Baltazar Bernal</footer>
+                  <footer className="footer">Gerardo Ramírez</footer>
                 </blockquote>
                 <br />
               </div>
