@@ -1,5 +1,4 @@
 //componentes descargados
-import { VentanaModal2 } from "../components/Modal/VentanaModal2";
 import { Contador } from "../components/Contador/Contador";
 
 //componentes propios
@@ -16,7 +15,6 @@ import GoogleReviews from "../components/GoogleReviews/GoogleReviews";
 export const Home = () => {
   return (
     <>
-      <VentanaModal2 />
       <BarraNavHome />
       <div id="Home">
         <div id="Quote" data-aos="fade-up" data-aos-duration="2500">
@@ -32,11 +30,11 @@ export const Home = () => {
         >
           <a
             className="aPages"
-            href="https://justiexpress.web.app/register"
+            href="https://wa.me/573185725324"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Ingresa a nuestra Plataforma
+            Click aquí para asistencia inmediata vía WhatsApp
           </a>
         </p>
 
@@ -100,6 +98,7 @@ export const Home = () => {
                 icon={"bi bi-circle-fill text-center"}
                 to={"/tutelas"}
                 style={{ color: "#fceef3" }}
+                buttonVariant="outline-secondary"
               />
             </div>
             <div className="col-sm-4">

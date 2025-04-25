@@ -7,6 +7,7 @@ interface SerivciosCardProps {
   icon: string;
   to: string;
   style: React.CSSProperties;
+  buttonVariant?: string;
 }
 
 export const ServiciosCard: React.FC<SerivciosCardProps> = ({
@@ -14,6 +15,7 @@ export const ServiciosCard: React.FC<SerivciosCardProps> = ({
   icon,
   to,
   style,
+  buttonVariant = "light",
 }) => {
   return (
     <>
@@ -25,7 +27,7 @@ export const ServiciosCard: React.FC<SerivciosCardProps> = ({
                 <i className={icon} style={style}></i>
               </div>
             </Card.Body>
-            <Button className="button">{title}</Button>
+            <Button className="button" variant={buttonVariant}>{title}</Button>
           </Link>
         </Card>
       </div>

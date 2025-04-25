@@ -35,14 +35,6 @@ export const BarraNavHome = () => {
           >
             <Nav className="mx-auto">
               <Nav.Link>
-                <Link
-                  id="RouterNavLink"
-                  className="inicio"
-                  onClick={handleNavClick}
-                  to="/"
-                >
-                  Inicio
-                </Link>
               </Nav.Link>
               <NavDropdown title="Servicios" id="basic-nav-dropdown">
                 <NavDropdown.Item
@@ -133,24 +125,6 @@ export const BarraNavHome = () => {
                 <HashLink smooth to="/#Quiénes-Somos">
                   Quiénes somos
                 </HashLink>
-              </Nav.Link>
-              <Nav.Link
-                onClick={handleNavClick}
-                href="https://justiexpress.web.app/login"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <p className="cuenta">Ingresa a la plataforma</p>
-                <p>Inicia sesión</p>
-              </Nav.Link>
-              <Nav.Link
-                onClick={handleNavClick}
-                href="https://justiexpress.web.app/register"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <p className="cuenta text-center">Crea aquí tu cuenta</p>
-                <p>Regístrate</p>
               </Nav.Link>
             </Nav>
           </div>
