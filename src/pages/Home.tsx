@@ -32,7 +32,14 @@ export const Home = () => {
             href="https://wa.me/573185725324"
             target="_blank"
             rel="noopener noreferrer"
-          >
+            onClick={() => {
+              // Llamada al evento de conversión de Google Ads
+              const gtagFunction = (window as any).gtag;
+              if (gtagFunction) {
+                gtagFunction('event', 'conversion', {'send_to': 'AW-697508779/tF-ACKqxyb4aEKvHzMwC'});
+              }
+              return true;
+            }}          >
             Click aquí para asistencia inmediata
           </a>
         </p>
