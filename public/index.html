@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/logo.png" />
@@ -7,21 +7,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
-      content="derecho de peticion, accion de tutela, desacatos, impugnaciones, contratos, reclamaciones"
+      content="derecho de peticion, tutela, accion de tutela, desacatos, impugnaciones, contratos, reclamaciones, abogados online, asesoría legal digital, servicios jurídicos online, consultoría legal, abogados Colombia"
       name="keywords"
     />
     <meta
-      content="Acciones de tutela, derechos de petición, contratos, reclamaciones, desacatos e impugnaciones."
+      content="Justiexpress - Innovación legal respaldada por abogados expertos. Servicios de tutelas, derechos de petición, contratos, reclamaciones y más. Más de 4000 casos exitosos."
       name="description"
     />
-    <meta name="robots" content="index" />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Justiexpress S.A.S." />
+    <meta name="geo.region" content="CO" />
+    <meta name="geo.placename" content="Colombia" />
 
-    <!-- Facebook Opengraph integration: https://developers.facebook.com/docs/sharing/opengraph -->
-    <meta property="og:title" content="Justiexpresss" />
+    <!-- Facebook Opengraph integration -->
+    <meta property="og:title" content="Justiexpress | Servicios legales innovadores" />
     <meta property="og:url" content="https://www.justiexpress.com/" />
     <meta property="og:site_name" content="Justiexpress" />
-    <meta property="og:description" content="Justicia ágil & para todos" />
+    <meta property="og:description" content="Servicios legales digitales: tutelas, derechos de petición y asesoría jurídica." />
     <meta property="og:type" content="website" />
+    <meta property="og:image" href="%PUBLIC_URL%/logo.png" />
     <meta property="fb:app_id" content="0" />
 
     <meta
@@ -63,22 +67,26 @@
         width="1"
         style="display: none"
         src="https://www.facebook.com/tr?id=854887822181190&ev=PageView&noscript=1"
+        alt="Facebook Pixel"
     /></noscript>
     <!-- End Meta Pixel Code -->
 
-    <!-- Twitter Cards integration: https://dev.twitter.com/cards/  -->
-    <meta name="twitter:card" content="summary" />
+    <!-- Twitter Cards integration -->
+    <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@justiexpress" />
-    <meta name="twitter:title" content="Justiexpress" />
-    <meta name="twitter:description" content="Justicia ágil & para todos" />
+    <meta name="twitter:title" content="Justiexpress | Servicios legales innovadores" />
+    <meta name="twitter:description" content="Servicios legales digitales: tutelas, derechos de petición y asesoría jurídica. Justicia ágil & para todos." />
+    <meta name="twitter:image" href="%PUBLIC_URL%/logo.png" />
 
+    <!-- Organization Schema.org -->
     <script type="application/ld+json">
       {
         "@context": "http://schema.org",
         "@type": "Organization",
         "name": "Justiexpress S.A.S.",
-        "logo": "https://www.justiexpress.com/img/logo1.png",
+        "logo": "%PUBLIC_URL%/logo.png",
         "url": "https://www.justiexpress.com/",
+        "description": "Servicios legales innovadores incluyendo tutelas, derechos de petición, consultoría y más",
         "sameAs": [
           "https://twitter.com/justiexpress?lang=es",
           "https://www.facebook.com/justiexpress/",
@@ -89,13 +97,121 @@
       }
     </script>
 
+    <!-- Legal Service Schema.org -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LegalService",
+        "name": "Justiexpress S.A.S.",
+        "image": "%PUBLIC_URL%/logo.png",
+        "url": "https://www.justiexpress.com/",
+        "telephone": "+573185725324",
+        "description": "Servicios legales innovadores incluyendo tutelas, derechos de petición, consultoría y más",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "Colombia"
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Servicios legales",
+          "itemListElement": [
+            {
+              "@type": "Service",
+              "name": "Tutelas",
+              "description": "Elaboración y seguimiento de acciones de tutela para proteger derechos fundamentales"
+            },
+            {
+              "@type": "Service",
+              "name": "Derechos de Petición",
+              "description": "Redacción profesional de derechos de petición para solicitudes ante entidades públicas y privadas"
+            },
+            {
+              "@type": "Service",
+              "name": "Reclamaciones",
+              "description": "Elaboración de reclamaciones ante entidades públicas y privadas"
+            },
+            {
+              "@type": "Service",
+              "name": "Desacatos",
+              "description": "Gestión y presentación de desacatos para el cumplimiento de fallos judiciales"
+            },
+            {
+              "@type": "Service",
+              "name": "Impugnaciones",
+              "description": "Preparación de impugnaciones a fallos de tutela"
+            },
+            {
+              "@type": "Service",
+              "name": "Contratos",
+              "description": "Redacción y revisión de contratos legales para personas y empresas"
+            },
+            {
+              "@type": "Service",
+              "name": "Consultoría",
+              "description": "Asesoría legal personalizada en diversas áreas del derecho"
+            }
+          ]
+        }
+      }
+    </script>
+
+    <!-- FAQ Schema -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "¿Cuánto tiempo toma elaborar una acción de tutela?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "En Justiexpress elaboramos acciones de tutela en menos de 24 horas, garantizando calidad y efectividad."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cómo funciona el proceso de contratación de servicios en Justiexpress?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nuestro proceso es 100% digital. Contacta con nosotros, explica tu caso, recibe una cotización y tras el pago recibirás tu documento jurídico en el tiempo acordado."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Ofrecen servicios en toda Colombia?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sí, nuestros servicios están disponibles para todo el territorio colombiano gracias a nuestra plataforma digital."
+            }
+          }
+        ]
+      }
+    </script>
+
+    <!-- BreadcrumbList Schema -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Inicio",
+            "item": "https://www.justiexpress.com/"
+          }
+        ]
+      }
+    </script>
+
     <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-T9B26PB');</script>
-  <!-- End Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-T9B26PB');</script>
+    <!-- End Google Tag Manager -->
    
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
@@ -119,34 +235,22 @@
     ></script>
 
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>Justiexpress</title>
+    
+    <title>Justiexpress | Servicios legales online: Tutelas, Derechos de Petición y Asesoría</title>
+    
+    <!-- Preconnect to important domains -->
+    <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+    <link rel="preconnect" href="https://www.google-analytics.com" crossorigin>
+    <link rel="preconnect" href="https://connect.facebook.net" crossorigin>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T9B26PB"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
+    <noscript>Necesitas habilitar JavaScript para utilizar esta aplicación.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>

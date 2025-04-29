@@ -7,7 +7,7 @@
     transform: translateY(-50%);
     z-index: 999;
   }
-
+  
   /* Style the icon bar links */
   .icon-bar a {
     display: block;
@@ -20,61 +20,55 @@
     height: 30px;
     padding-bottom: 30px;
   }
-
+  
   /* Style the social media icons with color, if you want */
-
   .facebook {
     background: #04171b;
     color: white !important;
+    
+    &:hover {
+      color: #c2f4fe !important;
+      transform: scale(1.1, 1);
+    }
   }
-
-  .facebook:hover {
-    color: #c2f4fe !important;
-    transform: scale(1.1, 1);
-  }
-
-  .twitter {
+  
+  .x {
     background: #04171b;
     color: white !important;
+    
+    &:hover {
+      color: #c2f4fe !important;
+      transform: scale(1.1, 1);
+    }
   }
-
-  .twitter:hover {
-    color: #c2f4fe !important;
-    transform: scale(1.1, 1);
-  }
-
-  .twitter:hover {
-    color: #c2f4fe !important;
-    transform: scale(1.1, 1);
-  }
-
+  
   .linkedin {
     background: #04171b;
     color: white !important;
+    
+    &:hover {
+      color: #c2f4fe !important;
+      transform: scale(1.1, 1);
+    }
   }
-
-  .linkedin:hover {
-    color: #c2f4fe !important;
-    transform: scale(1.1, 1);
-  }
-
+  
   .instagram {
     background: #04171b;
     color: white !important;
+    
+    &:hover {
+      color: #c2f4fe !important;
+      transform: scale(1.1, 1);
+    }
   }
-
-  .instagram:hover {
-    color: #c2f4fe !important;
-    transform: scale(1.1, 1);
-  }
-
+  
   .youtube {
     background: #04171b;
     color: white !important;
-  }
-
-  .youtube:hover {
-    color: #c2f4fe !important;
-    transform: scale(1.1, 1);
+    
+    &:hover {
+      color: #c2f4fe !important;
+      transform: scale(1.1, 1);
+    }
   }
 }
