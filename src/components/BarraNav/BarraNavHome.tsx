@@ -33,81 +33,11 @@ export const BarraNavHome = () => {
             id="navbarCollapse"
           >
             <Nav className="nav-container mx-auto">
-              <NavDropdown title="Servicios" id="basic-nav-dropdown" className="nav-item">
-                <NavDropdown.Item
-                  onClick={handleNavClick}
-                  className="dropdown-item"
-                >
-                  <span id="RouterNavLink">
-                    Acciones de Tutela
-                  </span>
-                </NavDropdown.Item>
-                <NavDropdown.Item
-                  onClick={handleNavClick}
-                  className="dropdown-item"
-                >
-                  <span id="RouterNavLink">
-                    Derechos de Petición
-                  </span>
-                </NavDropdown.Item>
-                <NavDropdown.Item
-                  onClick={handleNavClick}
-                  className="dropdown-item"
-                >
-                  <span id="RouterNavLink">
-                    Reclamaciones
-                  </span>
-                </NavDropdown.Item>
-                <NavDropdown.Item
-                  onClick={handleNavClick}
-                  className="dropdown-item"
-                >
-                  <span id="RouterNavLink">
-                    Contratos
-                  </span>
-                </NavDropdown.Item>
-                <NavDropdown.Item
-                  onClick={handleNavClick}
-                  className="dropdown-item"
-                >
-                  <span id="RouterNavLink">
-                    Desacatos
-                  </span>
-                </NavDropdown.Item>
-                <NavDropdown.Item
-                  onClick={handleNavClick}
-                  className="dropdown-item"
-                >
-                  <span id="RouterNavLink">
-                    Impugnaciones
-                  </span>
-                </NavDropdown.Item>
-                <NavDropdown.Item
-                  onClick={handleNavClick}
-                  className="dropdown-item"
-                >
-                  <span id="RouterNavLink">
-                    Proformas de Respuesta
-                  </span>
-                </NavDropdown.Item>
-                <NavDropdown.Item
-                  onClick={handleNavClick}
-                  className="dropdown-item"
-                >
-                  <span id="RouterNavLink">
-                    Consultoría
-                  </span>
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item
-                  onClick={handleNavClick}
-                  className="dropdown-item"
-                >
-                  <span id="RouterNavLink">
-                    Empresas y Startups
-                  </span>
-                </NavDropdown.Item>
-              </NavDropdown>
+            <Nav.Link onClick={handleNavClick} className="nav-item">
+                <HashLink smooth to="/#ServiciosCard">
+                  Servicios
+                </HashLink>
+              </Nav.Link>   
               <Nav.Link onClick={handleNavClick} className="nav-item">
                 <HashLink smooth to="/#Testimonios">
                   Testimonios
@@ -121,6 +51,11 @@ export const BarraNavHome = () => {
               <Nav.Link onClick={handleNavClick} className="nav-item">
                 <HashLink smooth to="/#Quiénes-Somos">
                   Quiénes somos
+                </HashLink>
+              </Nav.Link>
+              <Nav.Link onClick={handleNavClick} className="nav-item">
+                <HashLink smooth to="/#FAQ">
+                  Preguntas Frecuentes
                 </HashLink>
               </Nav.Link>
             </Nav>

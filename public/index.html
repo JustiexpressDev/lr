@@ -2,89 +2,51 @@
 <html lang="es">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/logo.png" />
+    <link rel="icon" href="/favicon.ico" />
     <link rel="canonical" href="https://www.justiexpress.com/" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      content="derecho de peticion, tutela, accion de tutela, desacatos, impugnaciones, contratos, reclamaciones, abogados online, asesoría legal digital, servicios jurídicos online, consultoría legal, abogados Colombia"
-      name="keywords"
-    />
-    <meta
-      content="Justiexpress - Innovación legal respaldada por abogados expertos. Servicios de tutelas, derechos de petición, contratos, reclamaciones y más. Más de 4000 casos exitosos."
-      name="description"
-    />
-    <meta name="robots" content="index, follow" />
-    <meta name="author" content="Justiexpress S.A.S." />
-    <meta name="geo.region" content="CO" />
-    <meta name="geo.placename" content="Colombia" />
-
-    <!-- Facebook Opengraph integration -->
-    <meta property="og:title" content="Justiexpress | Servicios legales innovadores" />
+    <meta name="theme-color" content="#6366f1" />
+    
+    <!-- Meta description para SEO -->
+    <meta name="description" content="Asistencia legal digital en Colombia: tutelas, derechos de petición y consultoría jurídica con abogados expertos. Más de 4000 casos resueltos." />
+    
+    <!-- Etiquetas hreflang para SEO internacional -->
+    <link rel="alternate" hreflang="es-co" href="https://www.justiexpress.com/" />
+    <link rel="alternate" hreflang="es" href="https://www.justiexpress.com/" />
+    <link rel="alternate" hreflang="x-default" href="https://www.justiexpress.com/" />
+    
+    <!-- Añade etiquetas para control de caché -->
+    <meta http-equiv="Cache-Control" content="max-age=86400" />
+    
+    <!-- Preloading de fuentes e imágenes críticas -->
+    <link rel="preload" href="/fonts/open-sans.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/logo.png" as="image">
+    
+    <!-- Facebook Opengraph -->
+    <meta property="og:title" content="Justiexpress | Servicios legales online en Colombia" />
     <meta property="og:url" content="https://www.justiexpress.com/" />
     <meta property="og:site_name" content="Justiexpress" />
-    <meta property="og:description" content="Servicios legales digitales: tutelas, derechos de petición y asesoría jurídica." />
+    <meta property="og:description" content="Asistencia legal digital: tutelas, derechos de petición y consultoría jurídica con abogados expertos. Más de 4000 casos resueltos." />
     <meta property="og:type" content="website" />
-    <meta property="og:image" href="%PUBLIC_URL%/logo.png" />
+    <meta property="og:image" content="https://www.justiexpress.com/social-banner.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
     <meta property="fb:app_id" content="0" />
-
-    <meta
-      name="facebook-domain-verification"
-      content="16pqg0h8ygnvqk3ip4yqtui3mwcs5d"
-    />
-
-    <!-- Meta Pixel Code -->
-    <script>
-      !(function (f, b, e, v, n, t, s) {
-        if (f.fbq) return;
-        n = f.fbq = function () {
-          n.callMethod
-            ? n.callMethod.apply(n, arguments)
-            : n.queue.push(arguments);
-        };
-        if (!f._fbq) f._fbq = n;
-        n.push = n;
-        n.loaded = !0;
-        n.version = "2.0";
-        n.queue = [];
-        t = b.createElement(e);
-        t.async = !0;
-        t.src = v;
-        s = b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t, s);
-      })(
-        window,
-        document,
-        "script",
-        "https://connect.facebook.net/en_US/fbevents.js"
-      );
-      fbq("init", "854887822181190");
-      fbq("track", "PageView");
-    </script>
-    <noscript
-      ><img
-        height="1"
-        width="1"
-        style="display: none"
-        src="https://www.facebook.com/tr?id=854887822181190&ev=PageView&noscript=1"
-        alt="Facebook Pixel"
-    /></noscript>
-    <!-- End Meta Pixel Code -->
-
-    <!-- Twitter Cards integration -->
+    
+    <!-- Twitter Cards -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@justiexpress" />
-    <meta name="twitter:title" content="Justiexpress | Servicios legales innovadores" />
-    <meta name="twitter:description" content="Servicios legales digitales: tutelas, derechos de petición y asesoría jurídica. Justicia ágil & para todos." />
-    <meta name="twitter:image" href="%PUBLIC_URL%/logo.png" />
-
+    <meta name="twitter:title" content="Justiexpress | Servicios legales online en Colombia" />
+    <meta name="twitter:description" content="Asistencia legal digital: tutelas, derechos de petición y consultoría jurídica con abogados expertos. Más de 4000 casos resueltos." />
+    <meta name="twitter:image" content="https://www.justiexpress.com/social-banner.jpg" />
+    
     <!-- Organization Schema.org -->
     <script type="application/ld+json">
       {
         "@context": "http://schema.org",
         "@type": "Organization",
         "name": "Justiexpress S.A.S.",
-        "logo": "%PUBLIC_URL%/logo.png",
+        "logo": "https://www.justiexpress.com/logo.png",
         "url": "https://www.justiexpress.com/",
         "description": "Servicios legales innovadores incluyendo tutelas, derechos de petición, consultoría y más",
         "sameAs": [
@@ -103,13 +65,17 @@
         "@context": "https://schema.org",
         "@type": "LegalService",
         "name": "Justiexpress S.A.S.",
-        "image": "%PUBLIC_URL%/logo.png",
+        "image": "https://www.justiexpress.com/logo.png",
         "url": "https://www.justiexpress.com/",
         "telephone": "+573185725324",
         "description": "Servicios legales innovadores incluyendo tutelas, derechos de petición, consultoría y más",
         "address": {
           "@type": "PostalAddress",
-          "addressCountry": "Colombia"
+          "streetAddress": "Dirección de Justiexpress",
+          "addressLocality": "Bogotá",
+          "addressRegion": "Cundinamarca",
+          "postalCode": "110111",
+          "addressCountry": "CO"
         },
         "hasOfferCatalog": {
           "@type": "OfferCatalog",
@@ -151,41 +117,11 @@
               "description": "Asesoría legal personalizada en diversas áreas del derecho"
             }
           ]
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "Colombia"
         }
-      }
-    </script>
-
-    <!-- FAQ Schema -->
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "¿Cuánto tiempo toma elaborar una acción de tutela?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "En Justiexpress elaboramos acciones de tutela en menos de 24 horas, garantizando calidad y efectividad."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "¿Cómo funciona el proceso de contratación de servicios en Justiexpress?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Nuestro proceso es 100% digital. Contacta con nosotros, explica tu caso, recibe una cotización y tras el pago recibirás tu documento jurídico en el tiempo acordado."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "¿Ofrecen servicios en toda Colombia?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Sí, nuestros servicios están disponibles para todo el territorio colombiano gracias a nuestra plataforma digital."
-            }
-          }
-        ]
       }
     </script>
 
@@ -205,52 +141,62 @@
       }
     </script>
 
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-T9B26PB');</script>
-    <!-- End Google Tag Manager -->
-   
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-136876050-1"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
+    <!-- Sitio web Schema.org -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Justiexpress",
+        "url": "https://www.justiexpress.com/",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://www.justiexpress.com/buscar?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
       }
-      gtag("js", new Date());
-
-      gtag("config", "UA-136876050-1");
     </script>
 
-    <script
-      data-ad-client="ca-pub-1189425407898705"
-      async
-      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-    ></script>
-
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo.png" />
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-T9B26PB');</script>
+  <!-- End Google Tag Manager -->
+   
+    <link rel="apple-touch-icon" href="/logo.png" />
+    <link rel="manifest" href="/manifest.json" />
     
-    <title>Justiexpress | Servicios legales online: Tutelas, Derechos de Petición y Asesoría</title>
+    <title>Justiexpress | Servicios legales online: Tutelas, Derechos de Petición y Asesoría en Colombia</title>
     
     <!-- Preconnect to important domains -->
     <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
     <link rel="preconnect" href="https://www.google-analytics.com" crossorigin>
     <link rel="preconnect" href="https://connect.facebook.net" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
   </head>
   <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T9B26PB"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-    
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T9B26PB"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->  
+
     <noscript>Necesitas habilitar JavaScript para utilizar esta aplicación.</noscript>
     <div id="root"></div>
+    
+    <!-- Script de carga diferida para mejoras de rendimiento -->
+    <script>
+      // Detección de características para aumentar la accesibilidad
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+          navigator.serviceWorker.register('/service-worker.js').then(function() {
+            console.log('Service Worker registrado correctamente');
+          }).catch(function() {
+            console.log('Error al registrar el Service Worker');
+          });
+        });
+      }
+    </script>
   </body>
 </html>
