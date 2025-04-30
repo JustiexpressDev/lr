@@ -1,3 +1,17 @@
-# https://www.robotstxt.org/robotstxt.html
+# robots.txt para justiexpress.com
 User-agent: *
-Disallow:
+Allow: /
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /beta/
+
+# Bloquear directorios de desarrollo
+Disallow: /dev/
+Disallow: /test/
+
+# Parámetros de URL a evitar
+Disallow: /*?ref=*
+Disallow: /*&ref=*
+
+# Sitemap
+Sitemap: https://www.justiexpress.com/sitemap.xml

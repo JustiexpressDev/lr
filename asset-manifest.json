@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.bcd74e7a.css",
-    "main.js": "/static/js/main.63a8d0db.js",
+    "main.css": "/static/css/main.fc8aacb9.css",
+    "main.js": "/static/js/main.113fbe9c.js",
     "static/js/787.bcd09f3d.chunk.js": "/static/js/787.bcd09f3d.chunk.js",
     "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.e559bf06bc84fd9525e6.woff",
     "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.ea98e12d2d58747f9fc5.woff2",
@@ -12,16 +12,16 @@
     "static/media/open-sans-latin-ext-400-normal.woff2": "/static/media/open-sans-latin-ext-400-normal.ccfa20f8de7f73249c39.woff2",
     "static/media/open-sans-cyrillic-400-normal.woff2": "/static/media/open-sans-cyrillic-400-normal.5a546777799f438b6bb4.woff2",
     "static/media/open-sans-greek-400-normal.woff2": "/static/media/open-sans-greek-400-normal.3064bf7e87155fcb14a1.woff2",
-    "index.html": "/index.html",
     "static/media/open-sans-hebrew-400-normal.woff2": "/static/media/open-sans-hebrew-400-normal.daafcec89c2332b84c25.woff2",
+    "index.html": "/index.html",
     "static/media/open-sans-vietnamese-400-normal.woff2": "/static/media/open-sans-vietnamese-400-normal.473f6b09ca8f5658857e.woff2",
     "static/media/open-sans-greek-ext-400-normal.woff2": "/static/media/open-sans-greek-ext-400-normal.1ed998a42083750e175e.woff2",
-    "main.bcd74e7a.css.map": "/static/css/main.bcd74e7a.css.map",
-    "main.63a8d0db.js.map": "/static/js/main.63a8d0db.js.map",
+    "main.fc8aacb9.css.map": "/static/css/main.fc8aacb9.css.map",
+    "main.113fbe9c.js.map": "/static/js/main.113fbe9c.js.map",
     "787.bcd09f3d.chunk.js.map": "/static/js/787.bcd09f3d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bcd74e7a.css",
-    "static/js/main.63a8d0db.js"
+    "static/css/main.fc8aacb9.css",
+    "static/js/main.113fbe9c.js"
   ]
 }
